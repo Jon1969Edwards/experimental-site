@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Freelancer v5.1.1 (https://startbootstrap.com/template-overviews/freelancer)
+ * Start Bootstrap - Agency v5.2.0 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
 body {
@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/coding.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
