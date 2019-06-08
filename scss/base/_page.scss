@@ -29,6 +29,15 @@ h6 {
   @include heading-font;
 }
 
+#profile-pic {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
 .page-section {
   padding: 100px 0;
   h2.section-heading {
