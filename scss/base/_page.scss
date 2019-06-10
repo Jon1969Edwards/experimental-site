@@ -1,5 +1,9 @@
 // Global styling for this template
+
+$bgcolor: #BCD4E6;
+
 body {
+  background-color: $bgcolor;
   overflow-x: hidden;
   @include body-font;
 }
