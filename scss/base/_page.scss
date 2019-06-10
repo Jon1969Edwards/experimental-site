@@ -1,5 +1,9 @@
 // Global styling for this template
+
+$bgcolor: #BCD4E6;
+
 body {
+  background-color: $bgcolor;
   overflow-x: hidden;
   @include body-font;
 }
@@ -27,6 +31,15 @@ h5,
 h6 {
   font-weight: 700;
   @include heading-font;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
 }
 
 .page-section {
