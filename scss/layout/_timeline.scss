@@ -11,7 +11,7 @@
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: $gray-200;
+    background-color: $primary;
   }
   > li {
     position: relative;
@@ -52,8 +52,8 @@
       height: 80px;
       margin-left: 0;
       text-align: center;
-      color: white;
-      border: 7px solid $gray-200;
+      color: $primary;
+      border: 7px solid $primary;
       border-radius: 100%;
       background-color: $primary;
       h4 {
