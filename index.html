@@ -11,6 +11,23 @@
 
   <title>Jonathan C. Edwards</title>
 
+  <!-- Google Analytics script -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-101608241-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,6 +37,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
@@ -43,7 +61,7 @@
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -90,7 +108,7 @@
             <i class="fas fa-bug fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Test Driven Development</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted">I was taught coding in a test driven environment.  Writing tests first and slowly making them pass becomes a puzzle to me.  I love finding that little bug!</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -98,7 +116,8 @@
             <i class="fas fa-code-branch fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Agile Development</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted">As with TDD, Agile Development was a huge part of my learning process.  While some may like to make a plan and stick to it, I've got a bit more of a creative mind that likes to tinker and experiment.</p>
+          <p class="text-muted">"Lets see what this'll do!"  - Me</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -106,104 +125,104 @@
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <p class="text-muted">While just about anyone can create a web page with a bit of HTML and some CSS, it takes a little more time to make sure that site will be useful on a mobile platform as well.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
+  <!-- Projects Grid -->
+  <section class="bg-light page-section" id="projects">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Projects</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">A few of my past and present projects.</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 projects-item">
+          <a class="projects-link" data-toggle="modal" href="#projectsModal1">
+            <div class="projects-hover">
+              <div class="projects-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/helloWorld_tn.jpg" alt="">
+            <img class="img-fluid" src="img/projects/helloWorld_tn.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+          <div class="projects-caption">
+            <h4>Hello World!</h4>
+            <p class="text-muted">This was my first project/site. Pretty simple stuff but I was proud.</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 projects-item">
+          <a class="projects-link" data-toggle="modal" href="#projectsModal2">
+            <div class="projects-hover">
+              <div class="projects-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/bmiCalculator_tn.jpg" alt="">
+            <img class="img-fluid" src="img/projects/bmiCalculator_tn.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+          <div class="projects-caption">
+            <h4>BMI Calculator</h4>
+            <p class="text-muted">A simple BMI calculator written in JavaScript tested with cucumber</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 projects-item">
+          <a class="projects-link" data-toggle="modal" href="#projectsModal3">
+            <div class="projects-hover">
+              <div class="projects-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/addressBook_tn.jpg" alt="">
+            <img class="img-fluid" src="img/projects/addressBook_tn.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+          <div class="projects-caption">
+            <h4>Address Book</h4>
+            <p class="text-muted">An address book written in JavaScript using browser local storage for storing contacts and cucumber for testing.</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 projects-item">
+          <a class="projects-link" data-toggle="modal" href="#projectsModal4">
+            <div class="projects-hover">
+              <div class="projects-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/moesTavern_tn.jpg" alt="">
+            <img class="img-fluid" src="img/projects/moesTavern_tn.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
+          <div class="projects-caption">
+            <h4>Moe's Tavern</h4>
+            <p class="text-muted">A food ordering application written in Ruby on Rails. Designed after The Simpsons "Moe's Tavern".</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 projects-item">
+          <a class="projects-link" data-toggle="modal" href="#projectsModal5">
+            <div class="projects-hover">
+              <div class="projects-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/sunrisePress_tn.jpg" alt="">
+            <img class="img-fluid" src="img/projects/sunrisePress_tn.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+          <div class="projects-caption">
+            <h4>The Sunrise Press</h4>
+            <p class="text-muted">This is a news website built on the Ruby on Rails framework. It allows visitors to view both inhouse and sourced news articles.</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 projects-item">
+          <a class="projects-link" data-toggle="modal" href="#projectsModal6">
+            <div class="projects-hover">
+              <div class="projects-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/carDnd_tn.jpg" alt="">
+            <img class="img-fluid" src="img/projects/carDnd_tn.jpg" alt="">
           </a>
-          <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+          <div class="projects-caption">
+            <h4>carDND</h4>
+            <p class="text-muted">A car sharing service prototype created using Ruby on Rails as full stack framework, cucumber/rspec for testing and tailwind for styling.</p>
           </div>
         </div>
       </div>
@@ -555,10 +574,10 @@
     </div>
   </footer>
 
-  <!-- Portfolio Modals -->
+  <!-- projects Modals -->
 
   <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="projects-modal modal fade" id="projectsModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -573,7 +592,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/helloWorld.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/projects/helloWorld.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -592,7 +611,7 @@
   </div>
 
   <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="projects-modal modal fade" id="projectsModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -607,7 +626,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/projects/02-full.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -626,7 +645,7 @@
   </div>
 
   <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="projects-modal modal fade" id="projectsModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -641,7 +660,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/projects/03-full.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -660,7 +679,7 @@
   </div>
 
   <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="projects-modal modal fade" id="projectsModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -675,7 +694,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/projects/04-full.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -694,7 +713,7 @@
   </div>
 
   <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="projects-modal modal fade" id="projectsModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -709,7 +728,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/projects/05-full.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
@@ -728,7 +747,7 @@
   </div>
 
   <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="projects-modal modal fade" id="projectsModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -743,7 +762,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Project Name</h2>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/projects/06-full.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
