@@ -33,7 +33,15 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Jonathan C. Edwards</a>
-        <img class="img-responsive" id="profile-pic" src="img/profile2.jpg" alt="">
+
+        <a class="img-responsive" data-toggle="modal" href="#projectsModal7">
+          <img id="profile-pic" src="img/profile2.jpg" alt="Snow">
+          <div class="projects-hover">
+            <div class="projects-hover-content">
+            </div>
+          </div>
+        </a>
+
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -352,10 +360,9 @@
         <div class="col-md-5">
           <h3>Record Collecting</h3>
           <p>I've been a record collector for a long time. There's no better feeling than finding that rare gem vinyl burried in a second hand store.  Check out my discogs profile as well as a spotify playlist I made.  You can tell a lot about a person based on their music collection.</p>
-          <a class="btn btn-primary" href="https://www.discogs.com/user/jon1969edwards">My Discogs Profile</a>
-          <br>
-          <br>
-          <a class="btn btn-primary" href="https://open.spotify.com/playlist/2dIDXdXK08zWyNutNzfnIe">My Spotify Playlist</a>
+          <a class="btn btn-primary" href="https://www.discogs.com/user/jon1969edwards">
+            My Discogs Profile
+          </a>
         </div>
       </div>
       <!-- /.row -->
@@ -371,7 +378,8 @@
         </div>
         <div class="col-md-5">
           <h3>Internet of Things</h3>
-          <p>"Alexa, Turn on the TV."  Alexa turns on the tv, sound-bar, Nvidia Shield, changes the channel to my favorite, and then dims and colors the Philips Hue lights.  This is magic and I want to learn more!</p>
+          <p>"Alexa, Turn on the TV."</p>  
+          <p>Alexa turns on the tv, sound-bar, Nvidia Shield, changes the channel to my favorite, and then dims and colors the Philips Hue lights.  This is magic and I want to learn more!</p>
         </div>
       </div>
       <!-- /.row -->
@@ -799,6 +807,40 @@
                 <a href="https://cardreamndrive.herokuapp.com/"> 
                   <button class="btn btn-primary" type="button">
                     carDND</button>
+                </a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 7 -->
+  <div class="projects-modal modal fade" id="projectsModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Jonathan C Edwards</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="img/profile2.jpg" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li></li>
+                  <li>Go ahead, send a message.  Ya know you want to.</li>
+                </ul>
+                <a href="https://api.whatsapp.com/send?phone=46722509969"> 
+                  <button class="btn btn-primary" type="button">
+                      Whatsapp</button>
                 </a> 
               </div>
             </div>
