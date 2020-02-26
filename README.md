@@ -1,10 +1,10 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
+# [My Portfolio template](https://startbootstrap.com/template-overviews/agency/)
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency projects theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive projects grid with hover effects, full page projects item modals, a responsive timeline, and a working PHP contact form.
+[Jonathan C. Edwards](https://startbootstrap.com/template-overviews/agency/) is a one page agency projects theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive projects grid with hover effects, full page projects item modals, a responsive timeline, and a working PHP contact form.
 
 ## Preview
 
-[![Agency Preview](https://startbootstrap.com/assets/img/screenshots/themes/agency.png)](https://blackrockdigital.github.io/startbootstrap-agency/)
+[![Preview](/img/homepageScreenshot.png)](https://jon1969edwards.github.io/)
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
