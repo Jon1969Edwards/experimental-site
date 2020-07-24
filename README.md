@@ -6,7 +6,7 @@
 
 [![Preview](/img/homepageScreenshot.png)](https://jon1969edwards.github.io/)
 
-**[View Live Preview](https://www.jonedwards.tech)**
+**[View Live Preview](https://jonedwards.tech)**
 
 ## Status
 
