@@ -6,7 +6,7 @@
 
 [![Preview](/img/homepageScreenshot.png)](https://jon1969edwards.github.io/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+**[View Live Preview](https://www.jonedwards.tech)**
 
 ## Status
 
