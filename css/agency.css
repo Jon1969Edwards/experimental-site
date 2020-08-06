@@ -4,17 +4,61 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+ /* * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ } */
+
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(214, 214, 214);
   background-color: #CAE5F8;
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+/* .btnSoc {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  background: rgb(214, 214, 214);
+  border-radius: 50%;
+  box-shadow: -7px -6px 20px 0 rgba(255, 255, 255, 0.9),
+              7px 7px 20px 0 rgba(0,0,0,0.3);
+  transition: 0.2s;
+}
+
+.btnSoc:hover {
+  transform: scale(1.1);
+}
+
+.btnSoc::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background: rgb(214, 214, 214);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnSoc:hover::before {
+  box-shadow: inset -7px -6px 20px 0 rgba(255, 255, 255, 0.9),
+              inset 7px 7px 20px 0 rgba(0,0,0,0.3);;
+} */
+
 p {
   line-height: 1.75;
 }
 
-a {
+/* a {
   color: #67F7C1;
 }
 
@@ -24,7 +68,7 @@ a:hover {
 
 .text-primary {
   color: #67F7C1 !important;
-}
+} */
 
 h1,
 h2,
