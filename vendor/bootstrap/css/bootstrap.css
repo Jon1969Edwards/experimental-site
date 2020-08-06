@@ -6922,7 +6922,7 @@ button.bg-dark:focus {
 .embed-responsive {
   position: relative;
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 0;
   overflow: hidden;
 }
@@ -6952,6 +6952,8 @@ button.bg-dark:focus {
 
 .embed-responsive-16by9::before {
   padding-top: 56.25%;
+  width: 75%;
+  height: 75%;
 }
 
 .embed-responsive-4by3::before {
