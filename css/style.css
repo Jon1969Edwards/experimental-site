@@ -36,3 +36,56 @@
     box-shadow: inset -7px -6px 20px 0 rgba(255, 255, 255, 0.9),
                 inset 7px 7px 20px 0 rgba(0,0,0,0.3);;
   }
+
+  .page-section {
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+    background-color: #212529;
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .containerContact{
+    background-color: rgb(202, 229, 248);
+    border-radius: 5px;
+  }
+
+  .btnContact{
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn-infoContact{
+    width: 50%;
+    letter-spacing: 2px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-infoContact:hover{
+    transform: scale(1.05);
+    color: #67f7c1;;
+  }
+
+  section#contact .section-heading {
+    color: #212529;
+    margin-bottom: -30;
+    margin-top: -68px;
+}
+
+.icn {
+  margin-left: 10px;
+  margin-right: 10px;
+}

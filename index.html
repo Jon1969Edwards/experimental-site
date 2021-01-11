@@ -26,6 +26,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <style>
     body {font-family: Arial, Helvetica, sans-serif;}
@@ -693,7 +694,7 @@
 
 
   <!-- Contact -->
-  <section class="page-section" id="contact">
+  <!-- <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -713,7 +714,7 @@
           </div>
 
       </div>
-    </div>
+    </div> -->
       <!-- div class="row">
         <div class="col-lg-12">
           <form id="contactForm" name="sentMessage" novalidate="novalidate">
@@ -747,7 +748,115 @@
           </form>
         </div>
       </!-- div -->
+  <!-- </section> -->
+
+  <!-- Email 2 -->
+  <section class="page-section cta" id="contact">
+    <div class="container">
+      <div class="containerContact">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">
+            Contact Me
+          </h2>
+        </div>
+          <div class="row">
+            <div class="col-md-6">
+              <form id="my-form" action="https://formspree.io/f/mwkwarro" method="POST" style="margin-left: 30px; margin-right: 30px;">
+                <div class="form-group">
+                  <input class="form-control" 
+                        placeholder="First Name" 
+                        type="First Name" 
+                        name="First Name"/>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" 
+                        placeholder="Last Name" 
+                        type="Last Name" 
+                        name="Last Name"/>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" 
+                        placeholder="Email" 
+                        type="email" 
+                        name="email"/>
+                </div>
+                <div class="form-group">
+                  <textarea type="text" 
+                            placeholder="Message"
+                            required="" 
+                            class="form-control" 
+                            id="massage" 
+                            cols="30" 
+                            rows="10"
+                            name="message">
+                  </textarea>
+                </div>
+                  <center>
+                    <button class="btnContact btn-infoContact" type="submit" value="Send" id="my-form-button">Submit</button>
+                  </center>
+                  <p id="my-form-status"></p>
+              </form>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+              <p class="icn"> &nbsp;&nbsp;&nbsp;&nbsp; Jonathan C. Edwards </p>
+              <p class="icn"><i class="fa fa-map-marker"></i> &nbsp;&nbsp; Stockholm, Sweden </p>
+              <p class="icn"><i class="fa fa-phone"></i> &nbsp;&nbsp;  </p>
+              <p class="icn"><i class="fa fa-envelope"></i> &nbsp;&nbsp; jon1969edwards@gmail.com </p>
+              <hr>
+            </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+  
+      // get the form elements defined in your form HTML above
+      
+      var form = document.getElementById("my-form");
+      var button = document.getElementById("my-form-button");
+      var status = document.getElementById("my-form-status");
+  
+      // Success and Error functions for after the form is submitted
+      
+      function success() {
+        form.reset();
+        button.style = "display: none ";
+        status.innerHTML = "Thanks! I'll get back to you as soon as possible.";
+      }
+  
+      function error() {
+        status.innerHTML = "Oops! There was a problem.";
+      }
+  
+      // handle the form submission event
+  
+      form.addEventListener("submit", function(ev) {
+        ev.preventDefault();
+        var data = new FormData(form);
+        ajax(form.method, form.action, data, success, error);
+      });
+    });
+    
+    // helper function for sending an AJAX request
+  
+    function ajax(method, url, data, success, error) {
+      var xhr = new XMLHttpRequest();
+      xhr.open(method, url);
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+          success(xhr.response, xhr.responseType);
+        } else {
+          error(xhr.status, xhr.response, xhr.responseType);
+        }
+      };
+      xhr.send(data);
+    }
+  </script>
 
   <!-- Footer -->
   <footer class="footer">
