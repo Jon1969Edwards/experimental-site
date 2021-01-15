@@ -12,7 +12,7 @@
         }
 
         # FIX: Replace this email with recipient email
-        $mail_to = "jon1969edwards@gmail.com";
+        $mail_to = "jon@jonedwards.tech";
         
         # Sender Data
         $subject = trim($_POST["subject"]);
