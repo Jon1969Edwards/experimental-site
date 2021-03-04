@@ -1,74 +1,124 @@
 [
     {
-        "index": "1",
-        "y": "4",
-        "n": "2",
-        "c": "3",
-        "question": "Is a supportcase already ... sent ?",
-        "type": "question",
-        "priority": "low"
-    },
-    {
-        "index": "2",
-        "y": "3",
-        "n": "3",
-        "c": "3",
-        "question": "Suggest a Supportcase.  do NOT ESCALATE"
-    },
-    {
-        "index": "3",
-        "y": "0",
-        "n": "0",
-        "c": "0",
-        "question": "End by any button."
-    },
-    {
-        "index": "4",
-        "y": "5",
-        "n": "7",
-        "c": "0",
-        "question": "is there already a pending ticket about this customer / case"
-    },
-    {
-        "index": "5",
-        "y": "6",
-        "n": "7",
-        "c": "0",
-        "question": "Is there an info in the pending ticket ?"
-    },
-    {
-        "index": "6",
-        "y": "7",
-        "n": "7",
-        "c": "7",
-        "question": "decide in regards to this information.....continue"
-    },
-    {
-        "index": "7",
-        "y": "10",
-        "n": "9",
-        "c": "0",
-        "question": "Did Economy have a full working day after the case was sent ? Mo-Fr 8:00 - 16:00"
-    },
-    {
-        "index": "8",
-        "y": "0",
-        "n": "0",
-        "c": "0",
-        "question": "Escalate the Ticket - End by any button."
-    },
-    {
-        "index": "9",
-        "y": "0",
-        "n": "0",
-        "c": "0",
-        "question": "Do NOT Escalate the Ticket. - End by any button."
-    },
-    {
-        "index": "10",
-        "y": "0",
-        "n": "0",
-        "c": "0",
-        "question": "Assign Dominilk and Inform."
-    }
+        "text": "Can the player log in the game...</strong>",
+        "icon": "fas fa-gamepad",
+        "nodes": [
+          {
+            "text": "Yes",
+            "icon": "fa fa-inbox",
+            "nodes": [
+              {
+                "icon": "fa fa-inbox",
+                "text": "Is the computer pluged in?",
+                "nodes": [
+                  {
+                    "text": "Yes",
+                    "nodes": [
+                      {
+                        "text": "Is the computer turned on?",
+                        "nodes": [
+                          {
+                            "text": "Yes"                        
+                          },
+                          {
+                            "text": "No"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "No",
+                    "nodes": [
+                      {
+                        "text": "Tell customer to plug in the computer and find another hobbie."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "icon": "fa fa-inbox",
+                "text": "Co-Workers"
+              }
+            ]
+          },
+          {
+            "text": "No",
+            "icon": "fa fa-inbox"
+          }
+        ]
+      },
+      {
+        "text": "does the player want to remove the Application",
+        "icon": "fa fa-inbox",
+        "nodes": [
+          {
+            "text": "Yes",
+            "icon": "fa fa-inbox",
+            "nodes": [
+              {
+                "icon": "fa fa-inbox",
+                "text": "Customers"
+              },
+              {
+                "icon": "fa fa-inbox",
+                "text": "Co-Workers"
+              }
+            ]
+          },
+          {
+            "text": "No",
+            "icon": "fa fa-inbox"
+          }
+        ]
+      },
+      {
+        "text": "is the recovery code available?",
+        "icon": "fa fa-inbox",
+        "nodes": [
+          {
+            "text": "Yes",
+            "icon": "fa fa-inbox",
+            "nodes": [
+              {
+                "icon": "fa fa-inbox",
+                "text": "Customers"
+              },
+              {
+                "icon": "fa fa-inbox",
+                "text": "Co-Workers"
+              }
+            ]
+          },
+          {
+            "text": "No",
+            "icon": "fa fa-inbox"
+          }
+        ]
+      },
+      {
+        "text": "Can the player log in the game...</strong>",
+        "icon": "fa fa-inbox",
+        "nodes": [
+          {
+            "text": "Yes",
+            "icon": "fa fa-inbox",
+            "nodes": [
+              {
+                "icon": "fa fa-inbox",
+                "text": "Customers"
+              },
+              {
+                "icon": "fa fa-inbox",
+                "text": "Co-Workers"
+              }
+            ]
+          },
+          {
+            "text": "No",
+            "icon": "fa fa-inbox"
+          }
+        ]
+      }
 ]
