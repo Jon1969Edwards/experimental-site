@@ -1,0 +1,108 @@
+[
+    {
+        "index": "1",
+        "question": "Can the player log in the game",
+        "addTags": "a",
+        "remTags": "s",
+        "type": "d",
+        "priority": "f",
+        "taskType": "g",
+        "category": "h",
+        "nextindex": "g",
+        "link": "j"
+    },
+    {
+        "index": "1y",
+        "type": "Problem",
+        "priority": "High",
+        "taskType": "Ma - Support",
+        "nextindex": "2"
+    },
+    {
+        "index": "1n",
+        "type": "Question",
+        "priority": "Normal",
+        "taskType": "LS",
+        "nextindex": "2"
+    },
+    {
+        "index": "2",
+        "question": "does the player want to remove the Application"
+    },
+    {
+        "index": "2y",
+        "addTags": "login_epocket_remove",
+        "remTags": "new_ticket",
+        "nextindex": "4"
+    },
+    {
+        "index": "2n",
+        "nextindex": "3"
+    },
+    {
+        "index": "3",
+        "question": "is the recovery code available"
+    },
+    {
+        "index": "3y",
+        "nextindex": "7"
+    },
+    {
+        "index": "3n",
+        "nextindex": "4"
+    },
+    {
+        "index": "4",
+        "question": "recommend a supportcase provide the supporcase link",
+        "nextindex": "5"
+    },
+    {
+        "index": "5",
+        "question": "request the supporcase information for the ticket",
+        "nextindex": "6"
+    },
+    {
+        "index": "6",
+        "question": "provide supportcase  help.",
+        "nextindex": "7"
+    },
+    {
+        "index": "7",
+        "question": "guide through the reset process",
+        "nextindex": "8"
+    },
+    {
+        "index": "8",
+        "question": "E-Pocket sucessfully removed ?"
+    },
+    {
+        "index": "8y",
+        "addTags": "successful",
+        "nextindex": "9"
+    },
+    {
+        "index": "8n",
+        "nextindex": "10"
+    },
+    {
+        "index": "9",
+        "question": "ask if more help is needed."
+    },
+    {
+        "index": "9y",
+        "nextindex": "10"
+    },
+    {
+        "index": "9n",
+        "nextindex": "11"
+    },
+    {
+        "index": "10",
+        "question": "appoloize, recommend to wait for supportanswer",
+        "nextindex": "11"
+    },
+    {
+        "index": "11",
+        "question": "finsih the chat friendly"
+    }
+]
