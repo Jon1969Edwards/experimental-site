@@ -1,5 +1,18 @@
 [
     {
+    "question": [
+        [
+        "[]\"Is a supportcase already sent ?\"",
+        [
+            "Yes",
+            "Can the player log in the game"
+        ],
+        "No"
+        ]
+    ]
+    },
+    
+    {
         "index": "1",
         "question": "Can the player log in the game",
         "addTags": "a",
