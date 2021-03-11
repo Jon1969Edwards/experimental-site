@@ -1,0 +1,60 @@
+<html>
+    <head>
+      <title>Urban Planning Survey: HTML Form to JSON"</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Form to JSON">
+      <meta name="keywords" content="JSON, Form, Javascript Form, FCC, Urban Planning Survey, HTML, CSS, Free Code Camp">
+      <meta name="author" content="Sarthak Batra">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="index.css" rel="stylesheet">
+    </head>
+  <body>
+    <h3 id="title">| Urban Planning Survey |</h3>
+    <main>
+    <p id="description">We highly value your opinion</p>
+    <form id="survey-form" class="contact-form">
+      <label id="name-label" for="name">* Name: </label>
+      <input autofocus id="name" type="text" name="Name" placeholder="Enter your name" class="input-field" required></input><br><br>
+      <label id="email-label" for="email">* Mail: </label>
+      <input type="email" id="email" name="email" placeholder="Enter your e-mail" class="input-field" required></input><br><br>
+      <label id="number-label" for="number">* Age: </label>
+      <input type="number" id="number" name="age" placeholder="Enter your age" class="input-field" required min="1" max="125"></input><br><br>
+      <label id="dropdown-label" for="dropdown">What is your prefered mode of transport?</label>
+      <select id="dropdown" class="input-field" name="transport">
+      <option value="vehicle">Personal Vehicle</option>
+      <option value="train">Train</option>
+      <option value="bus">Bus</option>
+      <option value="bicycle">Bicycle</option>
+      <option value="carpool">Carpool</option>
+      <option value="taxi">Ride Sharing/Taxi</option>  
+      </select><br><br>
+      <label id="checkbox-label" for="c1">What technologies really excite you?</label>
+      <div id="checkbox-div" class="input-field">
+      <input type="checkbox" id="c1" value="hyperloop" name="technologies"> Hyperloop</input><br>
+      <input type="checkbox" id="c2" value="self-driving" name="technologies"> Self-Driving Cars</input><br>
+      <input type="checkbox" id="c3" value="arvr" name="technologies"> Augmented and Virtual Reality</input><br>
+      <input type="checkbox" id="c4" value="drone" name="technologies"> Drone Delivery</input><br>
+      <input type="checkbox" id="c5" value="electric-bike" name="technologies"> Electric Scooters and Bikes</input><br>
+      <input type="checkbox" id="c6" value="cashless" name="technologies"> Cashless Payments</input><br>
+      </div>
+      <label id="radio-label" for="item1">Which project will you vote for?</label>
+      <div id="radio-div" class="input-field">
+      <input type="radio" id="r1" name = "project" value="r1"> Pedestrian Cross-Walks in Downtown</input><br>
+      <input type="radio" id="r2" name = "project" value="r2"> Rapid Transit System in Midtown</input><br>
+      <input type="radio" id="r3" name = "project" value="r3"> </input> Underground parking in Airport<br>
+
+      <input type="radio" id="r4" name = "project" value="r4"> Additional biking lanes on 10th Street</input><br>
+      </div>
+      <label id="comments-label" for="comments">Any other suggestions?</label>
+      <textarea id="comments" placeholder="Enter your comments here" class="input-field" rows="4"></textarea><br><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <hr class="form-end"></hr>
+    <div class="results-title">You can find the survey results in JSON Format below:
+      <div class="results">
+        <code class="results__display"></code>
+      </div>
+    </div>
+    </main>
+  </body>
+</html>
