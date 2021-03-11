@@ -1,0 +1,104 @@
+body {
+  background-color: #CD5C5C;
+}
+#title {
+  font-size: 2em;
+  text-align: center;
+  font-family: Times New Roman;
+  color: #F9FCEC;
+  font-weight: normal;
+  padding-left: 35px;
+}
+main {
+  background-color: #F9FCEC;
+  margin: 0 auto;
+  padding: auto auto;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 85%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Times New Roman;
+  padding-left: 5%;
+}
+#survey-form {
+  font-family: Times New Roman;
+  font-size: 1em;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+label {
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+  width: 35%;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.input-field  {
+  height: auto;
+  width: 250px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #c0c0c0;
+  border-radius: 2px;
+  background-color: #F0FFFF;
+  color: black;
+}
+#radio-div, #checkbox-div {
+  display: inline-block;
+  background-color: #F0FFFF;
+  font-size: 0.85em;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin-left: 10;
+}
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 80px;
+  margin-left: 40%;
+  margin-bottom: 15px;
+  border: 0px solid;
+}
+hr.form-end {
+  background-color: #CD5C5C;
+  width: 100%;
+  height: 25px;
+  border: none;
+}
+.results-title {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1em;
+  font-family: Times New Roman;
+}
+.results {
+  background-color: #F0FFFF;
+  text-align: left;
+  margin: 15px 30%;
+  padding: 5px;
+  border: 2px solid #c0c0c0;
+  min-height: 50px;
+}
+@media screen and (max-width: 760px) {
+  .input-field, select, label {
+    display: block;
+    width: 80%;
+    text-align: left;
+  }
+  label {
+    text-align: center;
+  }
+  #description {
+        padding-left: 0%;
+  }
+}
