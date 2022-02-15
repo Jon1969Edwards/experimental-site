@@ -13,6 +13,9 @@
   <!-- reCAPTCHA -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+  <!-- Netlify Identity -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   <meta name="google-site-verification" content="UhwWcRVM_ifrmLviOr7ocVbMYYk_FB0ldxDtHT8kNqs" />
     
   <title>Jonathan Edwards Tech</title>
@@ -107,6 +110,18 @@
     }
     </style>
 
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </head>
 
 <body id="page-top">
