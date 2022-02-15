@@ -3,7 +3,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // access
-        $secretKey = '6Ld7RCwaAAAAAD2ypsUAXPdluXQpAaoougMJdWTv';
+        $secretKey = '6LfaOX4eAAAAADLqKCcUysCH0z-F-C-64HhHCHpl';
         $captcha = $_POST['g-recaptcha-response'];
 
         if(!$captcha){
@@ -12,7 +12,7 @@
         }
 
         # FIX: Replace this email with recipient email
-        $mail_to = "jon@jonedwards.tech";
+        $mail_to = "jon1969edwards@gmail.com";
         
         # Sender Data
         $subject = trim($_POST["subject"]);
