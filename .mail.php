@@ -21,7 +21,7 @@
         $phone = trim($_POST["phone"]);
         $message = trim($_POST["message"]);
         
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($subject) OR empty($message)) {
+        if ( empty($name) || !filter_var($email, FILTER_VALIDATE_EMAIL) || empty($phone) || empty($subject) || empty($message)) {
             # Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo '<p class="alert alert-warning">Please complete the form and try again.</p>';
