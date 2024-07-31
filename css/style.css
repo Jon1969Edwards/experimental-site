@@ -89,3 +89,11 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.col-md-4-mid {
+  margin: auto;
+  padding: 20px;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  width: 50%;
+}
